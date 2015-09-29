@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity_KinectParticleWorld.CSharp.Plugins", "Unity_KinectParticleWorld.CSharp.Plugins.csproj", "{B48B4C95-6E94-A6FF-9FCA-FB6A1BCCA690}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity_KinectParticleWorld.CSharp", "Unity_KinectParticleWorld.CSharp.csproj", "{A9F4C37D-B867-5179-E95F-C50AF8CBBFDD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity_KinectParticleWorld.CSharp.Editor.Plugins", "Unity_KinectParticleWorld.CSharp.Editor.Plugins.csproj", "{6C4AE204-49D0-8A38-ED53-8037369E1DCA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity_KinectParticleWorld.CSharp.Editor", "Unity_KinectParticleWorld.CSharp.Editor.csproj", "{91021B46-557A-2F16-4D1F-FD1D224555D4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B48B4C95-6E94-A6FF-9FCA-FB6A1BCCA690}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B48B4C95-6E94-A6FF-9FCA-FB6A1BCCA690}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B48B4C95-6E94-A6FF-9FCA-FB6A1BCCA690}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B48B4C95-6E94-A6FF-9FCA-FB6A1BCCA690}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9F4C37D-B867-5179-E95F-C50AF8CBBFDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9F4C37D-B867-5179-E95F-C50AF8CBBFDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9F4C37D-B867-5179-E95F-C50AF8CBBFDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9F4C37D-B867-5179-E95F-C50AF8CBBFDD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C4AE204-49D0-8A38-ED53-8037369E1DCA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C4AE204-49D0-8A38-ED53-8037369E1DCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C4AE204-49D0-8A38-ED53-8037369E1DCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C4AE204-49D0-8A38-ED53-8037369E1DCA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91021B46-557A-2F16-4D1F-FD1D224555D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91021B46-557A-2F16-4D1F-FD1D224555D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91021B46-557A-2F16-4D1F-FD1D224555D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91021B46-557A-2F16-4D1F-FD1D224555D4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
