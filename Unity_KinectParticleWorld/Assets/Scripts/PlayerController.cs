@@ -54,7 +54,7 @@ public class PlayerController : MonoBehaviour
             float angle = Mathf.Atan2(handRight.y - handLeft.y, handRight.x - handLeft.x) * Mathf.Rad2Deg;
 
             // convert angle rotation to movement values
-            float x = Mathf.Lerp(1.0f, -1.0f, Mathf.InverseLerp(-45.0f, 45.0f, angle));
+            float x = Mathf.Lerp(-1.0f, 1.0f, Mathf.InverseLerp(-45.0f, 45.0f, angle));
             input = new Vector3(x, 0.0f, 0.0f);
 
             // body distance
