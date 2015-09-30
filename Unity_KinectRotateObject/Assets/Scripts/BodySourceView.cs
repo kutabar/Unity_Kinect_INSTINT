@@ -108,12 +108,12 @@ public class BodySourceView : MonoBehaviour
                 if (!_Bodies.ContainsKey(body.TrackingId))
                 {
                     _Bodies[body.TrackingId] = CreateBodyObject(body.TrackingId);
-
-                    // kinect is active
-                    kinectActive = true;
                 }
 
                 RefreshBodyObject(body, _Bodies[body.TrackingId]);
+                
+                // kinect is active
+                kinectActive = true;
             }
         }
     }
