@@ -1,11 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2015
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity_KinectPolygonUI.CSharp.Plugins", "Unity_KinectPolygonUI.CSharp.Plugins.csproj", "{FBFBEEDA-A85C-3C31-B292-666958FB2BD2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity_KinectRotateObject.CSharp.Plugins", "Unity_KinectRotateObject.CSharp.Plugins.csproj", "{AC0DF78A-F89B-A61F-02E0-9825DDFEDA25}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity_KinectPolygonUI.CSharp", "Unity_KinectPolygonUI.CSharp.csproj", "{E894A385-EA18-1319-C0D1-E8B6C89A9DE8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity_KinectRotateObject.CSharp", "Unity_KinectRotateObject.CSharp.csproj", "{98656FD0-D44E-8127-3CCB-769935AAFBB5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity_KinectPolygonUI.CSharp.Editor.Plugins", "Unity_KinectPolygonUI.CSharp.Editor.Plugins.csproj", "{0D10C64C-13AD-660D-05F4-75071B539ED8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity_KinectRotateObject.CSharp.Editor.Plugins", "Unity_KinectRotateObject.CSharp.Editor.Plugins.csproj", "{DF461C77-E378-9DB8-1DD7-28B9F010994E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,18 +13,18 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{FBFBEEDA-A85C-3C31-B292-666958FB2BD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FBFBEEDA-A85C-3C31-B292-666958FB2BD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FBFBEEDA-A85C-3C31-B292-666958FB2BD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FBFBEEDA-A85C-3C31-B292-666958FB2BD2}.Release|Any CPU.Build.0 = Release|Any CPU
-		{E894A385-EA18-1319-C0D1-E8B6C89A9DE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E894A385-EA18-1319-C0D1-E8B6C89A9DE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E894A385-EA18-1319-C0D1-E8B6C89A9DE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E894A385-EA18-1319-C0D1-E8B6C89A9DE8}.Release|Any CPU.Build.0 = Release|Any CPU
-		{0D10C64C-13AD-660D-05F4-75071B539ED8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0D10C64C-13AD-660D-05F4-75071B539ED8}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0D10C64C-13AD-660D-05F4-75071B539ED8}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0D10C64C-13AD-660D-05F4-75071B539ED8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC0DF78A-F89B-A61F-02E0-9825DDFEDA25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC0DF78A-F89B-A61F-02E0-9825DDFEDA25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC0DF78A-F89B-A61F-02E0-9825DDFEDA25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC0DF78A-F89B-A61F-02E0-9825DDFEDA25}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98656FD0-D44E-8127-3CCB-769935AAFBB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98656FD0-D44E-8127-3CCB-769935AAFBB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98656FD0-D44E-8127-3CCB-769935AAFBB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98656FD0-D44E-8127-3CCB-769935AAFBB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF461C77-E378-9DB8-1DD7-28B9F010994E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF461C77-E378-9DB8-1DD7-28B9F010994E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF461C77-E378-9DB8-1DD7-28B9F010994E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF461C77-E378-9DB8-1DD7-28B9F010994E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

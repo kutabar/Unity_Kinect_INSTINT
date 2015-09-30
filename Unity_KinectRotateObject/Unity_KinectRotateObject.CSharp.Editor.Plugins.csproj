@@ -5,7 +5,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{0D10C64C-13AD-660D-05F4-75071B539ED8}</ProjectGuid>
+    <ProjectGuid>{DF461C77-E378-9DB8-1DD7-28B9F010994E}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AssemblyName>Assembly-CSharp-Editor-firstpass</AssemblyName>
     <FileAlignment>512</FileAlignment>
@@ -54,6 +54,9 @@
     <Reference Include="UnityEditor">
       <HintPath>Library\UnityAssemblies\UnityEditor.dll</HintPath>
     </Reference>
+    <Reference Include="UnityEngine.Advertisements">
+      <HintPath>Library\UnityAssemblies\UnityEngine.Advertisements.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEditor.Advertisements">
       <HintPath>Library\UnityAssemblies\UnityEditor.Advertisements.dll</HintPath>
     </Reference>
@@ -68,6 +71,9 @@
     </Reference>
     <Reference Include="UnityEditor.Networking">
       <HintPath>Library\UnityAssemblies\UnityEditor.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Analytics">
+      <HintPath>Library\UnityAssemblies\UnityEngine.Analytics.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.Graphs">
       <HintPath>Library\UnityAssemblies\UnityEditor.Graphs.dll</HintPath>
@@ -113,13 +119,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="Unity_KinectPolygonUI.CSharp.Plugins.csproj">
-      <Project>{FBFBEEDA-A85C-3C31-B292-666958FB2BD2}</Project>
-      <Name>Unity_KinectPolygonUI.CSharp.Plugins</Name>
+    <ProjectReference Include="Unity_KinectRotateObject.CSharp.Plugins.csproj">
+      <Project>{AC0DF78A-F89B-A61F-02E0-9825DDFEDA25}</Project>
+      <Name>Unity_KinectRotateObject.CSharp.Plugins</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity_KinectPolygonUI.CSharp.csproj">
-      <Project>{E894A385-EA18-1319-C0D1-E8B6C89A9DE8}</Project>
-      <Name>Unity_KinectPolygonUI.CSharp</Name>
+    <ProjectReference Include="Unity_KinectRotateObject.CSharp.csproj">
+      <Project>{98656FD0-D44E-8127-3CCB-769935AAFBB5}</Project>
+      <Name>Unity_KinectRotateObject.CSharp</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
