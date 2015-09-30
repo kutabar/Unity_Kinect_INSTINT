@@ -107,6 +107,9 @@ public class BodySourceView : MonoBehaviour
                 }
 
                 RefreshBodyObject(body, _Bodies[body.TrackingId]);
+                
+                // kinect is active
+                kinectActive = true;
             }
         }
     }
@@ -131,9 +134,6 @@ public class BodySourceView : MonoBehaviour
 
     private void RefreshBodyObject(Kinect.Body body, GameObject bodyObject)
     {
-        // kinect is active
-        kinectActive = true;
-
         for (Kinect.JointType jt = Kinect.JointType.SpineBase; jt <= Kinect.JointType.ThumbRight; jt++)
         {
             Kinect.Joint sourceJoint = body.Joints[jt];
